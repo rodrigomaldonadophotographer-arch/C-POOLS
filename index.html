@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071b2b">
+  <meta name="description" content="Muestra de catálogo para servicios y equipamiento de albercas.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="images/icon-192.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css?v=2">
+  <title>C&amp;C Albercas y Más | Catálogo de muestra</title>
+</head>
+<body>
+  <div class="demo-ribbon"><span class="demo-dot"></span> PRESENTACIÓN DE MUESTRA <span class="ribbon-divider">/</span> EXPERIENCIA DIGITAL PARA ALBERCAS</div>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="C&C Albercas y Más, inicio">
+      <img src="images/logo-cc.png" alt="C&C Albercas y Más" width="205" height="62">
+    </a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menú"><span></span><span></span></button>
+    <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+      <a href="#servicios">Servicios</a>
+      <a href="#equipos">Equipos</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#proceso">Asesoría</a>
+      <button class="nav-contact open-contact" type="button">Solicitar información <span>↗</span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-image" aria-hidden="true"></div>
+      <div class="hero-shade" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-line"></span> C&amp;C ALBERCAS Y MÁS <span class="eyebrow-rule"></span> MUESTRA DIGITAL</p>
+        <h1>El agua cambia<br>la forma de <em>disfrutar.</em></h1>
+        <p class="hero-lede">Construcción, cuidado y equipamiento para crear espacios que se viven, se comparten y se disfrutan.</p>
+        <div class="hero-buttons">
+          <a class="button button-light" href="#servicios">Explorar soluciones <span>↓</span></a>
+          <button class="text-button open-contact" type="button">Hablemos de tu proyecto <span>↗</span></button>
+        </div>
+        <div class="hero-footnote"><span>CALIDAD</span><i></i><span>CONFIANZA</span><i></i><span>EXPERIENCIA</span></div>
+      </div>
+      <div class="hero-side-note"><span>01</span><i></i><span>AGUA · DISEÑO · BIENESTAR</span></div>
+      <a class="scroll-cue" href="#presentacion" aria-label="Desplazarse hacia abajo"><span></span> DESCUBRIR</a>
+    </section>
+
+    <section class="intro section-shell" id="presentacion">
+      <div class="intro-kicker"><span>01</span><p>UNA VISIÓN COMPLETA DEL AGUA</p></div>
+      <div class="intro-main">
+        <h2>Un espacio bien pensado<br><em>se disfruta por años.</em></h2>
+        <div class="intro-copy"><span class="small-rule"></span><p>Desde la idea inicial hasta el cuidado diario, cada detalle aporta al funcionamiento y la experiencia de una alberca.</p><a href="#servicios" class="inline-link">Conoce las soluciones <span>↘</span></a></div>
+      </div>
+    </section>
+
+    <section class="services section-shell" id="servicios">
+      <div class="section-heading">
+        <div><div class="section-kicker"><span>02</span> SERVICIOS ESPECIALIZADOS</div><h2>Soluciones para<br><em>cada etapa.</em></h2></div>
+        <p class="section-intro">Un recorrido sencillo por las principales áreas de trabajo. La selección final se adapta a los servicios que la empresa quiera destacar.</p>
+      </div>
+      <div class="service-layout" id="serviceGrid"></div>
+    </section>
+
+    <section class="equipment-showcase" id="equipos">
+      <div class="section-shell">
+        <div class="equipment-heading">
+          <div><div class="section-kicker light-kicker"><span>03</span> EQUIPO Y TECNOLOGÍA</div><h2>El corazón de una<br><em>alberca extraordinaria.</em></h2></div>
+          <p>Una selección visual de líneas y equipos compartidos como referencia. Modelos, características, existencias y precios se definirán con la empresa.</p>
+        </div>
+        <div class="product-toolbar">
+          <div class="filter-list" id="productFilters" role="group" aria-label="Filtrar equipos"></div>
+          <span class="demo-label"><i></i> REFERENCIAS DE MUESTRA</span>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+    </section>
+
+    <section class="portfolio section-shell" id="proyectos">
+      <div class="section-heading portfolio-heading">
+        <div><div class="section-kicker"><span>04</span> TRABAJOS REALIZADOS</div><h2>Espacios que invitan<br><em>a quedarse.</em></h2></div>
+        <p class="section-intro">Una selección de proyectos compartidos por C&amp;C. Cada imagen deja ver cómo el agua, los materiales y el entorno pueden transformar un espacio.</p>
+      </div>
+      <div class="portfolio-grid">
+        <article class="portfolio-card portfolio-feature">
+          <img src="images/proyectos/alberca-muro-verde.jpg" alt="Alberca con muro vegetal, cascada de piedra y tobogán">
+          <div class="portfolio-caption"><span>PROYECTO DESTACADO</span><h3>Un espacio para disfrutar en familia</h3></div>
+          <span class="portfolio-number">01</span>
+        </article>
+        <article class="portfolio-card">
+          <img src="images/proyectos/alberca-residencial-amplia.jpg" alt="Alberca residencial amplia junto a una terraza">
+          <div class="portfolio-caption"><span>DISEÑO RESIDENCIAL</span><h3>Agua y convivencia</h3></div>
+          <span class="portfolio-number">02</span>
+        </article>
+        <article class="portfolio-card">
+          <img src="images/proyectos/alberca-cascada-residencial.jpg" alt="Alberca residencial con muro de piedra y cascada">
+          <div class="portfolio-caption"><span>DETALLE EN PIEDRA</span><h3>El sonido de una cascada</h3></div>
+          <span class="portfolio-number">03</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="process section-shell" id="proceso">
+      <div class="process-title"><div class="section-kicker"><span>05</span> CÓMO EMPEZAR</div><h2>Un buen proyecto<br><em>comienza conversando.</em></h2><p>La presentación final puede llevar a cada visitante desde su necesidad hasta una solicitud de cotización clara.</p></div>
+      <div class="process-steps"><article><span>01</span><h3>Cuéntanos tu idea</h3><p>Construcción, mejora, mantenimiento o equipo.</p></article><article><span>02</span><h3>Revisamos opciones</h3><p>La solución se define de acuerdo con cada espacio.</p></article><article><span>03</span><h3>Preparamos el siguiente paso</h3><p>La información de contacto se agrega al aprobar la muestra.</p></article></div>
+    </section>
+
+    <section class="closing-cta">
+      <div class="closing-orbit orbit-one"></div><div class="closing-orbit orbit-two"></div>
+      <div class="closing-inner"><p class="section-kicker light-kicker"><span>06</span> C&amp;C ALBERCAS Y MÁS</p><h2>Tu próximo gran<br><em>momento empieza aquí.</em></h2><p>Una experiencia digital para descubrir servicios, explorar equipos y dar el siguiente paso.</p><button class="button button-light open-contact" type="button">Abrir contacto <span>↗</span></button></div>
+      <div class="closing-watermark">C<span>&amp;</span>C</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="footer-brand" href="#inicio"><img src="images/logo-cc.png" alt="C&C Albercas y Más" width="205" height="62"></a>
+    <p>CALIDAD <i></i> CONFIANZA <i></i> EXPERIENCIA</p>
+    <a class="admin-link" href="admin.html">Área de administración <span>↗</span></a>
+    <span class="bd-credit">BARRIO DIGITAL</span>
+  </footer>
+
+  <div class="sample-note"><span>i</span><p><b>Catálogo de muestra.</b> Productos, disponibilidad, precios y datos de contacto se personalizan al aprobar el diseño.</p></div>
+
+  <dialog class="info-dialog" id="infoDialog" aria-labelledby="dialogTitle">
+    <button class="dialog-close" type="button" aria-label="Cerrar ventana">×</button>
+    <div class="dialog-symbol">C&amp;C</div>
+    <p class="dialog-eyebrow" id="dialogEyebrow">CATÁLOGO DE MUESTRA</p>
+    <h2 id="dialogTitle">Ficha de referencia</h2>
+    <p id="dialogDescription">La información final se agregará al personalizar el catálogo.</p>
+    <div class="dialog-meta" id="dialogMeta">Información y disponibilidad por confirmar</div>
+    <button class="button button-dark dialog-action" type="button">Entendido <span>✓</span></button>
+  </dialog>
+
+  <button class="sound-button" id="soundToggle" type="button" aria-pressed="false" aria-label="Activar ambiente"><span>♫</span><b>Ambiente</b><small>APAGADO</small></button>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
+  <script src="js/app.js?v=2"></script>
+  <script src="js/ambiente.js"></script>
+</body>
+</html>
